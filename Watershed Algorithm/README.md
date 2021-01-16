@@ -6,3 +6,5 @@ The above program uses watershed algorithm to segment a picture of 6 coins place
 
 This algorithm is commonly used to segment images with multiple foreground objects at different levels by using custom seeds! 
 
+![](coins.jpg)
+![](coins_with_contours.jpg)
