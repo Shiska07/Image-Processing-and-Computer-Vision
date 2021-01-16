@@ -4,7 +4,10 @@ More info on how the algorithm works can be found at: https://en.wikipedia.org/w
 
 The above program uses watershed algorithm to segment a picture of 6 coins placed together. Do explore the provided jupyter notebook for a detailed example.
 
-This algorithm is commonly used to segment images with multiple foreground objects at different levels by using custom seeds! 
-
 <img src = "coins.jpg" width = 200>
 <img src = "coins_with_contours.jpg" width = 200>
+
+This algorithm is commonly used to segment images with multiple foreground objects at different levels by using custom seeds: 
+
+<img src = "landscape.jpg" width = 400>
+<img src = "final_result.png" width = 400>
