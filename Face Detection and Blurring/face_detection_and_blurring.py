@@ -8,6 +8,7 @@ cascade_path = 'C:/Users/shisk/Desktop/OpenCV Shared/Notes/Projects/Face Detecti
 face_cascade = cv2.CascadeClassifier(cascade_path)
 
 def detect_face_and_blur(image):
+    
     # make a copy of the passed frame
     face_image = image.copy()
 
