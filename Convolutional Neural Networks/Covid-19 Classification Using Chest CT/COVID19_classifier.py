@@ -7,7 +7,7 @@ from keras.preprocessing import image
 This program uses a keras Convolutional Neural network model trained using chest CT scan images of normal parients and patients with covid-19
 '''
 # variables
-input_shape = (1000,1000,3)
+input_shape = (900,900,3)
 
 # load saved model
 model = load_model('COVID_Classifier.h5')
