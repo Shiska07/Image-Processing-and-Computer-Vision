@@ -25,9 +25,9 @@ def predict(new_image):
     prediction = model.predict_classes(new_image)
     certainity = (model.predict(new_image)[0][0])*100;
     if prediction[0][0] == 0:
-        print(f"\nCOVID POSITIVE with {certainity}% certainity.")
+        print("\nCOVID POSITIVE patient with {:.2f}% certainity.".format(certainity))
     else:
-        print(f"\nCOVID NEGATIVE with {certainity}% certainity.")
+        print("\nCOVID NEGATIVE patient with {:.2f}% certainity.".format(certainity))
 
 
 def main():
